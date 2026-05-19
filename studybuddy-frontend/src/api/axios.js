@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'https://studybuddy-fdu3.onrender.com',
+  baseURL: 'https://studybuddy-fdu3.onrender.com/api',
 })
 
 API.interceptors.request.use((config) => {
